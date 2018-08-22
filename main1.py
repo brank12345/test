@@ -60,6 +60,6 @@ for i in range(0, len(dic)):
         third = count[i]
     #print(dic[i] , count[i])
 
-print(dic[index_1], first)
-print(dic[index_2], second)
-print(dic[index_3], third)
+print(dic[index_1][::-1], first)
+print(dic[index_2][::-1], second)
+print(dic[index_3][::-1], third)
